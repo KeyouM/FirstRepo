@@ -2,12 +2,13 @@ import 'package:flutter/material.dart';
 import 'dropdown_with_checkboxes_adjusted.dart';
 import 'dropdown_single_choice_adjusted.dart';
 
-//Testkommentar further Changes
+
 class StatusScreen extends StatefulWidget {
   @override
   _StatusScreenState createState() => _StatusScreenState();
 }
 
+//Kommentar steht nun unterhalb des Stateful Widgets
 class _StatusScreenState extends State<StatusScreen> {
   bool overlayOpened = false;
   OverlayEntry floatingStatus;
